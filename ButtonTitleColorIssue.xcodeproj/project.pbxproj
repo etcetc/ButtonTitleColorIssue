@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5355DE31AC3199C002B374C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5355DE21AC3199C002B374C /* main.m */; };
+		A5355DE61AC3199C002B374C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5355DE51AC3199C002B374C /* AppDelegate.m */; };
+		A5355DE91AC3199C002B374C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5355DE81AC3199C002B374C /* ViewController.m */; };
+		A5355DEC1AC3199C002B374C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5355DEA1AC3199C002B374C /* Main.storyboard */; };
+		A5355DEE1AC3199C002B374C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5355DED1AC3199C002B374C /* Images.xcassets */; };
+		A5355DF11AC3199D002B374C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5355DEF1AC3199C002B374C /* LaunchScreen.xib */; };
+		A5355DFD1AC3199D002B374C /* ButtonTitleColorIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5355DFC1AC3199D002B374C /* ButtonTitleColorIssueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5355DF71AC3199D002B374C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5355DD51AC3199C002B374C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5355DDC1AC3199C002B374C;
+			remoteInfo = ButtonTitleColorIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5355DDD1AC3199C002B374C /* ButtonTitleColorIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonTitleColorIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5355DE11AC3199C002B374C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5355DE21AC3199C002B374C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5355DE41AC3199C002B374C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5355DE51AC3199C002B374C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5355DE71AC3199C002B374C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5355DE81AC3199C002B374C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5355DEB1AC3199C002B374C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5355DED1AC3199C002B374C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5355DF01AC3199C002B374C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5355DF61AC3199D002B374C /* ButtonTitleColorIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTitleColorIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5355DFB1AC3199D002B374C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5355DFC1AC3199D002B374C /* ButtonTitleColorIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonTitleColorIssueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5355DDA1AC3199C002B374C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5355DF31AC3199D002B374C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5355DD41AC3199C002B374C = {
+			isa = PBXGroup;
+			children = (
+				A5355DDF1AC3199C002B374C /* ButtonTitleColorIssue */,
+				A5355DF91AC3199D002B374C /* ButtonTitleColorIssueTests */,
+				A5355DDE1AC3199C002B374C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5355DDE1AC3199C002B374C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5355DDD1AC3199C002B374C /* ButtonTitleColorIssue.app */,
+				A5355DF61AC3199D002B374C /* ButtonTitleColorIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5355DDF1AC3199C002B374C /* ButtonTitleColorIssue */ = {
+			isa = PBXGroup;
+			children = (
+				A5355DE41AC3199C002B374C /* AppDelegate.h */,
+				A5355DE51AC3199C002B374C /* AppDelegate.m */,
+				A5355DE71AC3199C002B374C /* ViewController.h */,
+				A5355DE81AC3199C002B374C /* ViewController.m */,
+				A5355DEA1AC3199C002B374C /* Main.storyboard */,
+				A5355DED1AC3199C002B374C /* Images.xcassets */,
+				A5355DEF1AC3199C002B374C /* LaunchScreen.xib */,
+				A5355DE01AC3199C002B374C /* Supporting Files */,
+			);
+			path = ButtonTitleColorIssue;
+			sourceTree = "<group>";
+		};
+		A5355DE01AC3199C002B374C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5355DE11AC3199C002B374C /* Info.plist */,
+				A5355DE21AC3199C002B374C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5355DF91AC3199D002B374C /* ButtonTitleColorIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5355DFC1AC3199D002B374C /* ButtonTitleColorIssueTests.m */,
+				A5355DFA1AC3199D002B374C /* Supporting Files */,
+			);
+			path = ButtonTitleColorIssueTests;
+			sourceTree = "<group>";
+		};
+		A5355DFA1AC3199D002B374C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5355DFB1AC3199D002B374C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5355DDC1AC3199C002B374C /* ButtonTitleColorIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5355E001AC3199D002B374C /* Build configuration list for PBXNativeTarget "ButtonTitleColorIssue" */;
+			buildPhases = (
+				A5355DD91AC3199C002B374C /* Sources */,
+				A5355DDA1AC3199C002B374C /* Frameworks */,
+				A5355DDB1AC3199C002B374C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonTitleColorIssue;
+			productName = ButtonTitleColorIssue;
+			productReference = A5355DDD1AC3199C002B374C /* ButtonTitleColorIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5355DF51AC3199D002B374C /* ButtonTitleColorIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5355E031AC3199D002B374C /* Build configuration list for PBXNativeTarget "ButtonTitleColorIssueTests" */;
+			buildPhases = (
+				A5355DF21AC3199D002B374C /* Sources */,
+				A5355DF31AC3199D002B374C /* Frameworks */,
+				A5355DF41AC3199D002B374C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5355DF81AC3199D002B374C /* PBXTargetDependency */,
+			);
+			name = ButtonTitleColorIssueTests;
+			productName = ButtonTitleColorIssueTests;
+			productReference = A5355DF61AC3199D002B374C /* ButtonTitleColorIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5355DD51AC3199C002B374C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Onebeat;
+				TargetAttributes = {
+					A5355DDC1AC3199C002B374C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A5355DF51AC3199D002B374C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A5355DDC1AC3199C002B374C;
+					};
+				};
+			};
+			buildConfigurationList = A5355DD81AC3199C002B374C /* Build configuration list for PBXProject "ButtonTitleColorIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5355DD41AC3199C002B374C;
+			productRefGroup = A5355DDE1AC3199C002B374C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5355DDC1AC3199C002B374C /* ButtonTitleColorIssue */,
+				A5355DF51AC3199D002B374C /* ButtonTitleColorIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5355DDB1AC3199C002B374C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5355DEC1AC3199C002B374C /* Main.storyboard in Resources */,
+				A5355DF11AC3199D002B374C /* LaunchScreen.xib in Resources */,
+				A5355DEE1AC3199C002B374C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5355DF41AC3199D002B374C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5355DD91AC3199C002B374C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5355DE91AC3199C002B374C /* ViewController.m in Sources */,
+				A5355DE61AC3199C002B374C /* AppDelegate.m in Sources */,
+				A5355DE31AC3199C002B374C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5355DF21AC3199D002B374C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5355DFD1AC3199D002B374C /* ButtonTitleColorIssueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5355DF81AC3199D002B374C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5355DDC1AC3199C002B374C /* ButtonTitleColorIssue */;
+			targetProxy = A5355DF71AC3199D002B374C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5355DEA1AC3199C002B374C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5355DEB1AC3199C002B374C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5355DEF1AC3199C002B374C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5355DF01AC3199C002B374C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5355DFE1AC3199D002B374C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5355DFF1AC3199D002B374C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5355E011AC3199D002B374C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonTitleColorIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5355E021AC3199D002B374C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonTitleColorIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5355E041AC3199D002B374C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonTitleColorIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonTitleColorIssue.app/ButtonTitleColorIssue";
+			};
+			name = Debug;
+		};
+		A5355E051AC3199D002B374C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonTitleColorIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonTitleColorIssue.app/ButtonTitleColorIssue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5355DD81AC3199C002B374C /* Build configuration list for PBXProject "ButtonTitleColorIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5355DFE1AC3199D002B374C /* Debug */,
+				A5355DFF1AC3199D002B374C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5355E001AC3199D002B374C /* Build configuration list for PBXNativeTarget "ButtonTitleColorIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5355E011AC3199D002B374C /* Debug */,
+				A5355E021AC3199D002B374C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5355E031AC3199D002B374C /* Build configuration list for PBXNativeTarget "ButtonTitleColorIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5355E041AC3199D002B374C /* Debug */,
+				A5355E051AC3199D002B374C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5355DD51AC3199C002B374C /* Project object */;
+}
