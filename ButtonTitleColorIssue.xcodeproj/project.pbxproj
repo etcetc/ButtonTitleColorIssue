@@ -14,6 +14,7 @@
 		A5355DEE1AC3199C002B374C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5355DED1AC3199C002B374C /* Images.xcassets */; };
 		A5355DF11AC3199D002B374C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5355DEF1AC3199C002B374C /* LaunchScreen.xib */; };
 		A5355DFD1AC3199D002B374C /* ButtonTitleColorIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5355DFC1AC3199D002B374C /* ButtonTitleColorIssueTests.m */; };
+		A5355E081AC319DF002B374C /* TestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A5355E071AC319DF002B374C /* TestButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A5355DF61AC3199D002B374C /* ButtonTitleColorIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTitleColorIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5355DFB1AC3199D002B374C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5355DFC1AC3199D002B374C /* ButtonTitleColorIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonTitleColorIssueTests.m; sourceTree = "<group>"; };
+		A5355E061AC319DF002B374C /* TestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestButton.h; sourceTree = "<group>"; };
+		A5355E071AC319DF002B374C /* TestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A5355DED1AC3199C002B374C /* Images.xcassets */,
 				A5355DEF1AC3199C002B374C /* LaunchScreen.xib */,
 				A5355DE01AC3199C002B374C /* Supporting Files */,
+				A5355E061AC319DF002B374C /* TestButton.h */,
+				A5355E071AC319DF002B374C /* TestButton.m */,
 			);
 			path = ButtonTitleColorIssue;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				A5355DE91AC3199C002B374C /* ViewController.m in Sources */,
 				A5355DE61AC3199C002B374C /* AppDelegate.m in Sources */,
 				A5355DE31AC3199C002B374C /* main.m in Sources */,
+				A5355E081AC319DF002B374C /* TestButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ButtonTitleColorIssue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ButtonTitleColorIssue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
